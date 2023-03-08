@@ -40,10 +40,10 @@
             <address class="address">
                 <ul class="address-list list">
                     <li class="address-item">
-                        <a href="mailto:info@devstudio.com" class="address-link link address-mail">info@devstudio.com</a>
+                        <a href="mailto:info@devstudio.com" class="address-link link">info@devstudio.com</a>
                     </li>
                     <li class="address-item">
-                        <a href="tel:+110001111111" class="address-link link address-tel">+11 (000) 111-11-11</a>
+                        <a href="tel:+110001111111" class="address-link link">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </address>
@@ -56,7 +56,7 @@
         </div>
         <div class="mob-menu js-menu-container">
             <div class="container">
-                <div>
+                <div class="mob-wrap">
                     <button href="" type="button" class="mob-close js-close-menu">
                         <svg class="close-button" width="8" height="8">
                             <use href="./images/icons.svg#icon-close"></use>
@@ -85,31 +85,31 @@
                             </li>
                         </ul>
                     </address>
-                    <ul class="team-soc-list list">
-                        <li class="team-soc-item">
-                            <a href="" class="team-soc-link link">
-                                <svg class="team-soc-icon" width="16px" height="16px">
+                    <ul class="mob-soc-list list">
+                        <li class="mob-soc-item">
+                            <a href="" class="mob-soc-link link">
+                                <svg class="team-soc-icon" width="24px" height="124px">
                                     <use href="./images/icons.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="team-soc-item">
-                            <a href="" class="team-soc-link link">
-                                <svg class="team-soc-icon" width="16px" height="16px">
+                        <li class="mob-soc-item">
+                            <a href="" class="mob-soc-link link">
+                                <svg class="mob-soc-icon" width="24px" height="24px">
                                     <use href="./images/icons.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="team-soc-item">
-                            <a href="" class="team-soc-link link">
-                                <svg class="team-soc-icon" width="16px" height="16px">
+                        <li class="mob-soc-item">
+                            <a href="" class="mob-soc-link link">
+                                <svg class="team-soc-icon" width="24px" height="24px">
                                     <use href="./images/icons.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="team-soc-item">
-                            <a href="" class="team-soc-link link">
-                                <svg class="team-soc-icon" width="16px" height="16px">
+                        <li class="mob-soc-item">
+                            <a href="" class="mob-soc-link link">
+                                <svg class="team-soc-icon" width="24px" height="24px">
                                     <use href="./images/icons.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
@@ -177,13 +177,19 @@
                 <h2 class="work-title">What are we doing</h2>
                 <ul class="work-list list">
                     <li class="work-item">
-                        <img src="./images/img1.jpg" alt="computer" width="360">
+                        <img 
+                        srcset="./images/img1.jpg 1x, ./images/img1-2x.jpeg 2x"
+                        src="./images/img1.jpg" alt="computer" width="360">
                     </li>
                     <li class="work-item">
-                        <img src="./images/img2.jpg" alt="smartphone" width="360">
+                        <img 
+                        srcset="./images/img2.jpg 1x, ./images/img2-2x.jpeg 2x"
+                        src="./images/img2.jpg" alt="smartphone" width="360">
                     </li>
                     <li class="work-item">
-                        <img src="./images/img3.jpg" alt="smartphone on desktop backgroung" width="360">
+                        <img 
+                        srcset="./images/img3.jpg 1x, ./images/img3-2x.jpeg 2x"
+                        src="./images/img3.jpg" alt="smartphone on desktop backgroung" width="360">
                     </li>
                 </ul>
             </div>
@@ -193,7 +199,9 @@
                 <h2 class="team-title title">Our Team</h2>
                 <ul class="team-list list">
                     <li class="team-item">
-                        <img src="./images/member1.jpg" alt="team member 1" width="264">
+                        <img 
+                        srcset="./images/member1.jpg 1x, ./images/member1-2x.jpeg 2x"
+                        src="./images/member1.jpg" alt="team member 1" width="264">
                         <div>
                             <h3 class="secondary-title">Mark Guerrero</h3>
                             <p class="team-text">Product Designer</p>
@@ -230,7 +238,9 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/member2.jpg" alt="team member 2" width="264">
+                        <img 
+                        srcset="./images/member2.jpg 1x, ./images/member2-2x.jpeg 2x"
+                        src="./images/member2.jpg" alt="team member 2" width="264">
                         <div>
                             <h3 class="secondary-title">Tom Ford</h3>
                             <p class="team-text">Frontend Developer</p>
@@ -267,7 +277,9 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/member3.jpg" alt="team member 2" width="264">
+                        <img 
+                        srcset="./images/member3.jpg 1x, ./images/member3-2x.jpeg 2x"
+                        src="./images/member3.jpg" alt="team member 2" width="264">
                         <div>
                             <h3 class="secondary-title">Camila Garcia</h3>
                             <p class="team-text">Marketing</p>
@@ -304,7 +316,9 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/member4.jpg" alt="team member 4" width="264">
+                        <img 
+                        srcset="./images/member4.jpg 1x, ./images/member4-2x.jpeg 2x"
+                        src="./images/member4.jpg" alt="team member 4" width="264">
                         <div>
                             <h3 class="secondary-title">Daniel Wilson</h3>
                             <p class="team-text">UI Designer</p>

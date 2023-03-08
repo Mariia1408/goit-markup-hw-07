@@ -7,6 +7,10 @@
     min-width: 392px;
   }
 
+  .mob-soc-list {
+    gap: 56px;
+  }
+
   .mob-tel {
     font-size: 32px;
   }

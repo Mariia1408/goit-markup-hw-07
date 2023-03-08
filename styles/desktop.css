@@ -3,11 +3,29 @@
     max-width: 1158px;
   }
 
+  .address-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .address-link {
+    font-size: 16px;
+  }
+
   /* -----------------------------HERO------------------------ */
 
   .hero {
+    background-image: var(--hero-l-grad), url(../images/hero-bgr.jpeg);
     padding-top: 188px;
     padding-bottom: 188px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--hero-l-grad), url(../images/hero-bgr-2x.jpeg);
+    }
   }
   /* -----------------------------ADVANTAGES------------------------ */
 
