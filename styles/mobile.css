@@ -6,4 +6,8 @@
   .modal {
     min-width: 392px;
   }
+
+  .mob-tel {
+    font-size: 32px;
+  }
 }

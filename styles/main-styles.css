@@ -206,6 +206,7 @@ color: var(--main-color);
 }
 
 .mob-tel {
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.11;
@@ -214,6 +215,7 @@ color: var(--main-color);
 }
 
 .mob-mail {
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
