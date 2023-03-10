@@ -114,6 +114,10 @@
     row-gap: 72px;
   }
 
+  .advantages-title {
+    text-align: left;
+  }
+
   .advantages-item {
     width: calc((100% - 24px) / 2);
   }
@@ -137,7 +141,8 @@
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 64px;
   }
 
   .team-item {
@@ -164,6 +169,11 @@
     column-gap: 24px;
     row-gap: 72px;
   }
+
+  .footer-info {
+    align-items: flex-start;
+  }
+
   .social-media-title {
     text-align: left;
   }
